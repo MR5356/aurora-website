@@ -5,6 +5,7 @@ module.exports = {
         "./**/*.{js,ts,jsx,tsx,md,mdx}",
         "./.vitepress/**/*.{js,ts,jsx,tsx,md,mdx,mts}",
     ],
+    darkMode: "class",
     theme: {
         extend: {},
     },
