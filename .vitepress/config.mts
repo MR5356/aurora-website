@@ -24,7 +24,7 @@ export default defineConfig({
             rel: 'icon',
             href: logo,
         }],
-        ['link', {rel: 'stylesheet', href: '/style.css'}],
+        // ['link', {rel: 'stylesheet', href: '/style.css'}],
     ],
     lastUpdated: false,
     themeConfig: {
@@ -85,10 +85,10 @@ export default defineConfig({
                 }
             ]
         },
-        footer: {
-            message: "",
-            copyright: "<div class='flex flex-col text-xs'><span>Copyright @ 2024 Aurora</span><span><a style='text-decoration: none' href='http://www.beian.miit.gov.cn/' target='_blank'>冀公网安备 13112202000250 号</a> <a style='text-decoration: none' href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13112202000250' target='_blank'>冀ICP备20003324号</a></span></div>"
-        },
+        // footer: {
+        //     message: "",
+        //     copyright: "<div class='flex flex-col text-xs'><span>Copyright @ 2024 Aurora</span><span><a style='text-decoration: none' href='http://www.beian.miit.gov.cn/' target='_blank'>冀公网安备 13112202000250 号</a> <a style='text-decoration: none' href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13112202000250' target='_blank'>冀ICP备20003324号</a></span></div>"
+        // },
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/mr5356/aurora'}
