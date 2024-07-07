@@ -21,7 +21,7 @@
     </a>
 </div>
 
-<img src="../logo.svg" width="100" alt="logo">
+<img src="../public/logo.svg" width="100" alt="logo">
 
 开源、简单、易用的 DevOps 系统
 
