@@ -51,8 +51,25 @@ export default defineConfig({
                 },
                 {
                     text: "快速开始",
-                    collapsed: true,
-                    link: "/user/start/",
+                    items: [
+                        {
+                            text: "写在前面",
+                            link: "/user/start/",
+                        },
+                        {
+                            text: "安装指南",
+                            link: "/user/start/install",
+                        }
+                    ]
+                },
+                {
+                    text: "使用指南",
+                    items: [
+                        {
+                            text: "登录",
+                            link: "/user/use/login",
+                        }
+                    ]
                 }
             ],
             "developer": [
@@ -76,7 +93,7 @@ export default defineConfig({
                                     collapsed: true,
                                     items: [
                                         {text: "生命周期", link: "/developer/plugin/server/lifecycle"},
-                                        {text: "扩展点", link: "/developer/plugin/server/extension"},
+                                        // {text: "扩展点", link: "/developer/plugin/server/extension"},
                                     ]
                                 },
                             ]

@@ -17,7 +17,7 @@ export default {
         ]),
       ]),
       "home-hero-image": () => h('div', { class: 'w-full h-full flex items-center justify-center' }, [
-        h('img', { src: './assets/preview.jpg', class: 'w-full aspect-video rounded-md shadow-2xl shadow-blue-500/50' })
+        h('img', { src: './assets/dashboard.jpg', class: 'w-full aspect-video rounded-md shadow-2xl shadow-blue-500/50' })
       ])
     })
   },

@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Aurora"
   text: ""
-  image: "./assets/preview.jpg"
+  image: "./assets/dashboard.jpg"
   tagline: Aurora is an open source system for DevOps.
   actions:
     - theme: brand
