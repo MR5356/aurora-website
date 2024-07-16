@@ -11,6 +11,9 @@ hero:
     - theme: brand
       text: 快速上手
       link: /user
+    - theme: brand
+      text: 在线示例
+      link: https://demo.docker.ac.cn
     - theme: alt
       text: 开发指南
       link: /developer
