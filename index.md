@@ -46,13 +46,13 @@ function handleOpen(src) {
     <div class="md:px-20 lg:px-40 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 sm:gap-4 md:gap-4 lg:gap-12">
         <div class="flip-card w-full aspect-square flex-1 rounded-lg overflow-hidden">
             <div class="flip-card-inner">
-                <div class="flip-card-front bg-gray-100 flex items-center justify-center iconfont icon-windows" style="font-size: calc(1rem + 3vw)"></div>
-                <div class="flip-card-back bg-slate-100 flex flex-col gap-2 items-center justify-center font-mono">
-                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-windows-amd64.tar.gz')">
+                <div class="flip-card-front bg-gray-100 dark:bg-slate-800 flex items-center justify-center iconfont icon-windows" style="font-size: calc(1rem + 3vw)"></div>
+                <div class="flip-card-back bg-slate-100 dark:bg-slate-800 flex flex-col gap-2 items-center justify-center font-mono">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 hover:dark:bg-slate-600 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-windows-amd64.tar.gz')">
                         <div class="iconfont icon-windows" style="font-size: calc(10px + 1.2vw)"></div>
                         <div style="font-size: calc(10px + 0.3vw)">.exe(x86_64)</div>
                     </div>
-                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-windows-arm64.tar.gz')">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 hover:dark:bg-slate-600 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-windows-arm64.tar.gz')">
                         <div class="iconfont icon-windows" style="font-size: calc(10px + 1.2vw)"></div>
                         <div style="font-size: calc(10px + 0.3vw)">.exe(ARM64)&nbsp;</div>
                     </div>
@@ -61,13 +61,13 @@ function handleOpen(src) {
         </div>
         <div class="flip-card w-full aspect-square flex-1 rounded-lg overflow-hidden">
             <div class="flip-card-inner">
-                <div class="flip-card-front bg-gray-100 flex items-center justify-center iconfont icon-mac" style="font-size: calc(1rem + 3vw)"></div>
-                <div class="flip-card-back bg-slate-100 flex flex-col gap-2 items-center justify-center font-mono">
-                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-darwin-amd64.tar.gz')">
+                <div class="flip-card-front bg-gray-100 dark:bg-slate-800 flex items-center justify-center iconfont icon-mac" style="font-size: calc(1rem + 3vw)"></div>
+                <div class="flip-card-back bg-slate-100 dark:bg-slate-800 flex flex-col gap-2 items-center justify-center font-mono">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 hover:dark:bg-slate-600 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-darwin-amd64.tar.gz')">
                         <div class="iconfont icon-mac" style="font-size: calc(10px + 1.2vw)"></div>
                         <div style="font-size: calc(10px + 0.3vw)">Intel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                     </div>
-                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-darwin-arm64.tar.gz')">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 hover:dark:bg-slate-600 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-darwin-arm64.tar.gz')">
                         <div class="iconfont icon-mac" style="font-size: calc(10px + 1.2vw)"></div>
                         <div style="font-size: calc(10px + 0.3vw)">Apple Silicon</div>
                     </div>
@@ -76,13 +76,13 @@ function handleOpen(src) {
         </div>
         <div class="flip-card w-full aspect-square flex-1 rounded-lg overflow-hidden">
             <div class="flip-card-inner">
-                <div class="flip-card-front bg-gray-100 flex items-center justify-center iconfont icon-linux" style="font-size: calc(1rem + 3vw)"></div>
-                <div class="flip-card-back bg-slate-100 flex flex-col gap-2 items-center justify-center font-mono">
-                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-linux-amd64.tar.gz')">
+                <div class="flip-card-front bg-gray-100 dark:bg-slate-800 flex items-center justify-center iconfont icon-linux" style="font-size: calc(1rem + 3vw)"></div>
+                <div class="flip-card-back bg-slate-100 dark:bg-slate-800 flex flex-col gap-2 items-center justify-center font-mono">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 hover:dark:bg-slate-600 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-linux-amd64.tar.gz')">
                         <div class="iconfont icon-linux" style="font-size: calc(10px + 1.2vw)"></div>
                         <div style="font-size: calc(10px + 0.3vw)">AMD64</div>
                     </div>
-                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-linux-amd64.tar.gz')">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 hover:dark:bg-slate-600 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-linux-amd64.tar.gz')">
                         <div class="iconfont icon-linux" style="font-size: calc(10px + 1.2vw)"></div>
                         <div style="font-size: calc(10px + 0.3vw)">ARM64</div>
                     </div>
@@ -91,13 +91,13 @@ function handleOpen(src) {
         </div>
         <div class="flip-card w-full aspect-square flex-1 rounded-lg overflow-hidden">
             <div class="flip-card-inner">
-                <div class="flip-card-front bg-gray-100 flex items-center justify-center iconfont icon-yuanma" style="font-size: calc(1rem + 3vw)"></div>
-                <div class="flip-card-back bg-slate-100 flex flex-col gap-2 items-center justify-center font-mono">
-                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest')">
+                <div class="flip-card-front bg-gray-100 dark:bg-slate-800 flex items-center justify-center iconfont icon-yuanma" style="font-size: calc(1rem + 3vw)"></div>
+                <div class="flip-card-back bg-slate-100 dark:bg-slate-800 flex flex-col gap-2 items-center justify-center font-mono">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 hover:dark:bg-slate-600 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest')">
                         <div class="iconfont icon-zip" style="font-size: calc(10px + 1.2vw)"></div>
                         <div style="font-size: calc(10px + 0.3vw)">zip&nbsp;&nbsp;&nbsp;</div>
                     </div>
-                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest')">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 hover:dark:bg-slate-600 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest')">
                         <div class="iconfont icon-TAR" style="font-size: calc(10px + 1.2vw)"></div>
                         <div style="font-size: calc(10px + 0.3vw)">tar.gz</div>
                     </div>
