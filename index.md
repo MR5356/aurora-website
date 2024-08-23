@@ -38,8 +38,11 @@ function handleOpen(src) {
     window.open(src, '_blank')
 }
 </script>
-<div class="flex flex-col gap-4 mt-8">
-    <div class="text-xl font-bold text-center">Download Aurora</div>
+<div class="flex flex-col gap-4 mt-10">
+    <div class="text-2xl font-bold flex gap-2 items-center justify-start">
+        <div>Download Aurora</div>
+        <div><img src="https://img.shields.io/github/v/release/MR5356/aurora" alt="release"></div>
+    </div>
     <div class="md:px-20 lg:px-40 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 sm:gap-4 md:gap-4 lg:gap-12">
         <div class="flip-card w-full aspect-square flex-1 rounded-lg overflow-hidden">
             <div class="flip-card-inner">
