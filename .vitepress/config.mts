@@ -60,6 +60,10 @@ export default defineConfig({
                         {
                             text: "安装指南",
                             link: "/user/start/install",
+                        },
+                        {
+                            text: "配置项",
+                            link: "/user/start/options",
                         }
                     ]
                 },

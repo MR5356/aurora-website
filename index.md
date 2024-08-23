@@ -12,6 +12,9 @@ hero:
       text: 快速上手
       link: /user
     - theme: alt
+      text: 在线示例
+      link: https://demo.docker.ac.cn
+    - theme: alt
       text: 开发指南
       link: /developer
 
@@ -29,6 +32,7 @@ features:
   - title: 功能扩展
     details: 通过插件系统支持动态扩展系统功能。用户可以根据需求灵活安装和使用各种插件，进一步提升系统的功能性和适用性。
 ---
+
 <script setup>
 function handleOpen(src) {
     window.open(src, '_blank')
