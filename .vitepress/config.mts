@@ -24,6 +24,7 @@ export default defineConfig({
             rel: 'icon',
             href: logo,
         }],
+        ['link', {rel: 'stylesheet', href: '//at.alicdn.com/t/c/font_4662552_9swuiwhph3i.css'}],
         // ['link', {rel: 'stylesheet', href: '/style.css'}],
     ],
     lastUpdated: false,
@@ -33,7 +34,7 @@ export default defineConfig({
         nav: [
             {text: '使用手册', link: '/user/'},
             {text: '开发者指南', link: '/developer/'},
-            {text: 'Demo', link: 'https://docker.ac.cn'}
+            {text: 'Demo', link: 'https://demo.docker.ac.cn'}
         ],
         lastUpdated: {
             text: '最后更新于',

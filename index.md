@@ -29,3 +29,111 @@ features:
   - title: 功能扩展
     details: 通过插件系统支持动态扩展系统功能。用户可以根据需求灵活安装和使用各种插件，进一步提升系统的功能性和适用性。
 ---
+<script setup>
+function handleOpen(src) {
+    window.open(src, '_blank')
+}
+</script>
+<div class="flex flex-col gap-4 mt-8">
+    <div class="text-xl font-bold text-center">Download Aurora</div>
+    <div class="md:px-20 lg:px-40 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 sm:gap-4 md:gap-4 lg:gap-12">
+        <div class="flip-card w-full aspect-square flex-1 rounded-lg overflow-hidden">
+            <div class="flip-card-inner">
+                <div class="flip-card-front bg-gray-100 flex items-center justify-center iconfont icon-windows" style="font-size: calc(1rem + 3vw)"></div>
+                <div class="flip-card-back bg-slate-100 flex flex-col gap-2 items-center justify-center font-mono">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-windows-amd64.tar.gz')">
+                        <div class="iconfont icon-windows" style="font-size: calc(10px + 1.2vw)"></div>
+                        <div style="font-size: calc(10px + 0.6vw)">amd64</div>
+                    </div>
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-windows-arm64.tar.gz')">
+                        <div class="iconfont icon-windows" style="font-size: calc(10px + 1.2vw)"></div>
+                        <div style="font-size: calc(10px + 0.6vw)">arm64</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card w-full aspect-square flex-1 rounded-lg overflow-hidden">
+            <div class="flip-card-inner">
+                <div class="flip-card-front bg-gray-100 flex items-center justify-center iconfont icon-mac" style="font-size: calc(1rem + 3vw)"></div>
+                <div class="flip-card-back bg-slate-100 flex flex-col gap-2 items-center justify-center font-mono">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-darwin-amd64.tar.gz')">
+                        <div class="iconfont icon-mac" style="font-size: calc(10px + 1.2vw)"></div>
+                        <div style="font-size: calc(10px + 0.6vw)">amd64</div>
+                    </div>
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-darwin-arm64.tar.gz')">
+                        <div class="iconfont icon-mac" style="font-size: calc(10px + 1.2vw)"></div>
+                        <div style="font-size: calc(10px + 0.6vw)">arm64</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card w-full aspect-square flex-1 rounded-lg overflow-hidden">
+            <div class="flip-card-inner">
+                <div class="flip-card-front bg-gray-100 flex items-center justify-center iconfont icon-linux" style="font-size: calc(1rem + 3vw)"></div>
+                <div class="flip-card-back bg-slate-100 flex flex-col gap-2 items-center justify-center font-mono">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-linux-amd64.tar.gz')">
+                        <div class="iconfont icon-linux" style="font-size: calc(10px + 1.2vw)"></div>
+                        <div style="font-size: calc(10px + 0.6vw)">amd64</div>
+                    </div>
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest/download/aurora-linux-amd64.tar.gz')">
+                        <div class="iconfont icon-linux" style="font-size: calc(10px + 1.2vw)"></div>
+                        <div style="font-size: calc(10px + 0.6vw)">arm64</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card w-full aspect-square flex-1 rounded-lg overflow-hidden">
+            <div class="flip-card-inner">
+                <div class="flip-card-front bg-gray-100 flex items-center justify-center iconfont icon-yuanma" style="font-size: calc(1rem + 3vw)"></div>
+                <div class="flip-card-back bg-slate-100 flex flex-col gap-2 items-center justify-center font-mono">
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-t-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest')">
+                        <div class="iconfont icon-zip" style="font-size: calc(10px + 1.2vw)"></div>
+                        <div style="font-size: calc(10px + 0.6vw)">zip&nbsp;&nbsp;&nbsp;</div>
+                    </div>
+                    <div class="font-bold flex gap-1 items-center w-full h-full rounded-b-lg justify-center hover:bg-sky-200 cursor-pointer" @click="handleOpen('https://github.com/MR5356/aurora/releases/latest')">
+                        <div class="iconfont icon-TAR" style="font-size: calc(10px + 1.2vw)"></div>
+                        <div style="font-size: calc(10px + 0.6vw)">tar.gz</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px; /* 控制3D视角 */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); /* 翻转 */
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* 隐藏背面 */
+}
+
+.flip-card-front {
+  /*background-color: #fff;*/
+  /*color: black;*/
+}
+
+.flip-card-back {
+  /*background-color: #2980b9;*/
+  /*color: white;*/
+  transform: rotateY(180deg); /* 背面默认翻转 */
+}
+</style>
