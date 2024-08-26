@@ -24,7 +24,7 @@ export default defineConfig({
             rel: 'icon',
             href: logo,
         }],
-        ['link', {rel: 'stylesheet', href: '//at.alicdn.com/t/c/font_4662552_9swuiwhph3i.css'}],
+        ['link', {rel: 'stylesheet', href: '//at.alicdn.com/t/c/font_4662552_7eq8isw6fzw.css'}],
         // ['link', {rel: 'stylesheet', href: '/style.css'}],
     ],
     lastUpdated: false,
