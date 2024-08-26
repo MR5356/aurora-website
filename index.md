@@ -54,7 +54,7 @@ onMounted(()=> {
 <div class="flex flex-col gap-12">
     <!-- 仪表盘 -->
     <div class="w-full aspect-video overflow-hidden rounded-md shadow-2xl shadow-blue-500/50">
-        <img src="./assets/dashboard.jpg" alt="dashboard"></img>
+        <img src="/assets/dashboard.jpg" alt="dashboard"></img>
     </div>
     <div class='flex flex-col gap-4'>
         <div class="text-3xl font-bold flex gap-2 items-center justify-start">
